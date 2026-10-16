@@ -2,9 +2,10 @@
 
 A responsive e-commerce storefront built with HTML, CSS, and vanilla JavaScript. Products are loaded from a local JSON catalog and rendered dynamically as cards, with client-side filtering and a shopping cart that is saved in the browser.
 
-**Live demo:** [yasminabdelhalim.github.io/Techmart-Marketplace](https://techmart-marketplace-neon.vercel.app/)]([https://yasminabdelhalim.github.io/Techmart-Marketplace/](https://techmart-marketplace-neon.vercel.app/))
+**Live demo:** [techmart-marketplace-neon.vercel.app](https://techmart-marketplace-neon.vercel.app/)
 
-![TechMart screenshot](./assets/screenshot.png)
+
+![TechMart screenshot](./assets/techmart-screen.PNG)
 
 ## Features
 
