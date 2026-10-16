@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechMart | Electronics Marketplace</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./JS/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">TechMart</a>
+
+        <button type="button" id="cart-button">
+          Cart (<span id="counter">0</span>)
+        </button>
+      </nav>
+      <form id="search-form">
+        <input
+          type="search"
+          name="search"
+          id="search-bar"
+          placeholder="Search electronics..."
+          aria-label="search products"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+
+    <main>
+      <aside class="filters">
+        <h2>Filters</h2>
+        <fieldset>
+          <legend>Category</legend>
+          <div>
+            <input type="checkbox" name="category" id="phones" 
+            value="phones" />
+            <label for="phones">Phones</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="category"
+              id="laptops"
+              value="laptops"
+            />
+            <label for="laptops">Laptops</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              name="category"
+              id="accessories"
+              value="accessories"
+            />
+            <label for="accessories">Accessories</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Maximum Price</legend>
+          <label for="max-price">
+            Max Price: <span id="price-value">$2000</span>
+          </label>
+          <input
+            type="range"
+            name="max-price"
+            id="max-price"
+            min="0"
+            max="2000"
+            step="50"
+            value="2000"
+          />
+        </fieldset>
+      </aside>
+
+      <section class="products">
+        <h2>Products</h2>
+
+        <div class="product-grid" id="product-grid">
+        
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 TechMart. All rights reserved.</p>
+    </footer>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+<aside class="cart-panel" id="cart-panel" aria-label="Shopping cart" aria-hidden="true">
+  <div class="cart-header">
+    <h2>Your Cart</h2>
+    <button type="button" id="close-cart" aria-label="Close cart">&times;</button>
+  </div>
+
+  <ul class="cart-items" id="cart-items"></ul>
+
+  <div class="cart-footer">
+    <p>Total: <strong id="cart-total">$0.00</strong></p>
+    <button type="button" id="clear-cart">Clear Cart</button>
+  </div>
+</aside>
+  </body>
+</html>

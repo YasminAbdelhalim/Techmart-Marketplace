@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "category": "accessories",
+    "price": 89.99,
+    "image": "./assets/headphone.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "category": "phones",
+    "price": 499.99,
+    "image": "./assets/smartphone.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Laptop",
+    "category": "laptops",
+    "price": 899.99,
+    "image": "./assets/laptop.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Mouse",
+    "category": "accessories",
+    "price": 29.99,
+    "image": "./assets/mouse.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Smartphone Case",
+    "category": "accessories",
+    "price": 19.99,
+    "image": "./assets/case.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Laptop",
+    "category": "laptops",
+    "price": 1299.99,
+    "image": "./assets/gaming-laptop.jpg"
+  }
+]
